@@ -1,3 +1,5 @@
+// level1
+
 function solution(s) {
   var answer = '';
   const number = [
