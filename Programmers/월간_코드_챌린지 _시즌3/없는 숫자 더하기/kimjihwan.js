@@ -4,15 +4,15 @@ function solution(numbers) {
     var answer = 0;
     var middle = 0;
 
-    for(var i=0; i<number.length; i++) {
-        for(var j=0; j<numbers.length; j++) {
-            if(number[i] == numbers[j]) {
+    for (var i = 0; i < number.length; i++) {
+        for (var j = 0; j < numbers.length; j++) {
+            if (number[i] == numbers[j]) {
                 middle = middle + number[i];
             }
         }
     }
-    
+
     answer = 45 - middle;
-    
+
     return answer;
 }
