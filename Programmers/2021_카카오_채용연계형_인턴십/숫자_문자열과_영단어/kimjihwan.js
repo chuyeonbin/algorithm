@@ -12,7 +12,5 @@ function solution(s) {
     chanum = chanum.replace(/eight/gi, 8);
     chanum = chanum.replace(/nine/gi, 9);
 
-    console.log(chanum)
-
     return Number(chanum);
 }
